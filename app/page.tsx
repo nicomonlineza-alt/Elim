@@ -11,7 +11,7 @@ const gallery = [
   { src: "https://i.ibb.co/dsjJRHZS/ladies.jpg", alt: "Community members working together", title: "Making a difference", description: "Small acts of support that help people take their next step.", category: "Shelter Life" },
   { src: "https://i.ibb.co/Cs1zgycP/IMG-4438.jpg", alt: "Children and community support", title: "Hope in community", description: "Connection, encouragement and care for every person we meet.", category: "Events" },
   { src: "https://i.ibb.co/7xDhtx8m/IMG-4439.jpg?auto=format&fit=crop&w=900&q=85", alt: "Hands joined in support", title: "Hands joined in support", description: "Lasting change is built together, one relationship at a time.", category: "Shelter Life" },
-  { src: "https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?auto=format&fit=crop&w=900&q=85", alt: "Volunteers making a difference", title: "The power of giving", description: "Our volunteers bring energy, kindness and practical support to Elim.", category: "Events" },
+  { src: "https://i.ibb.co/Q3D7JzbX/mens.jpg", alt: "Volunteers making a difference", title: "The power of giving", description: "Our volunteers bring energy, kindness and practical support to Elim.", category: "Events" },
 ];
 const galleryFilters = ["All Photos", "Shelter Life", "Community & Meals", "Events"] as const;
 const galleryVideos = [
