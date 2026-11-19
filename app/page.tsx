@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { ArrowUpRight, MessageCircle, Home as ShelterHome, Mail, MapPin, Menu, Play, ShieldCheck, Soup, Sparkles, Users } from "lucide-react";
+import { ArrowUpRight, MessageCircle, Home as ShelterHome, Mail, MapPin, Menu, Play, ShieldCheck, Soup, Sparkles, Users, X } from "lucide-react";
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
 
