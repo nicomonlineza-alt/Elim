@@ -1,0 +1,22 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import 'shadcn/tailwind.css';
+
+@custom-variant dark (&:is(.dark *));
+
+:root { color-scheme: light; --background: #faf8f5; --foreground: #0f172a; --radius: 0.75rem; }
+@theme inline { --color-background: var(--background); --color-foreground: var(--foreground); --font-sans: var(--font-inter); --font-serif: var(--font-serif); }
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: var(--background); color: var(--foreground); font-family: var(--font-inter), Arial, sans-serif; }
+::selection { background: #fbbf24; color: #0f172a; }
+:focus-visible { outline: 3px solid #f59e0b; outline-offset: 3px; }
+.font-serif { font-family: var(--font-serif), Georgia, serif; }
+.eyebrow { font-size: .7rem; font-weight: 800; letter-spacing: .2em; text-transform: uppercase; color: #b45309; }
+.section-title { max-width: 600px; font-family: var(--font-serif), Georgia, serif; font-size: clamp(2.4rem, 5vw, 4rem); line-height: 1.02; letter-spacing: -.035em; }
+.section-title em { color: #b45309; font-weight: 400; }
+.field { display: block; width: 100%; margin-top: .45rem; border: 1px solid #d8d0c5; border-radius: .6rem; background: white; padding: .75rem .85rem; font: inherit; font-size: .9rem; font-weight: 400; color: #0f172a; }
+.field:focus { border-color: #f59e0b; outline: 2px solid #fbbf24; outline-offset: 1px; }
+button, a { -webkit-tap-highlight-color: transparent; }
+img { display: block; }
