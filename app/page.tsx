@@ -90,7 +90,7 @@ export default function HomePage() {
       </section>
 
       <section className="phase-section">
-        <div className="phase-image"><img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&w=1200&q=85" alt="Community members supporting one another" /></div>
+        <div className="phase-image"><img src="https://i.ibb.co/LXwqmfJd/outside.jpg" alt="Community members supporting one another" /></div>
         <div className="phase-copy"><div className="section-label">THE NEXT STEP</div><h2>From rehabilitation<br />to <em>independent living.</em></h2><p>Finding a job is a major achievement. Finding a place to live — and affording deposits and moving costs — can still stand in the way of independence.</p><p>Elim's second-phase accommodation was developed to bridge that gap. It gives residents who have made progress through rehabilitation more time to secure suitable accommodation, strengthen their financial footing and practise the responsibilities of independent living.</p><ul><li><House size={17} /> Transitional accommodation while seeking a home</li><li><Wallet size={17} /> Practical budgeting and money-management skills</li><li><Sprout size={17} /> Housekeeping, self-reliance and personal responsibility</li><li><Users size={17} /> Accommodation options that recognise couples' needs</li></ul></div>
       </section>
 
